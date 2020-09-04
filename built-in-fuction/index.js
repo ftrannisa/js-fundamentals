@@ -41,5 +41,5 @@ console.log(join);
 
 // Slice
 var name = input[1];
-var nameTrue = name.slice(0,15); 
+var nameTrue = name.slice(0,14); 
 console.log(nameTrue);
