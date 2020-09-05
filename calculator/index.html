@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+  <body>
+    <span class="btn btn-medium info" onclick="input()">Calculate!</span>
+  </body>
+  <script type="text/javascript" language="javascript">
+    function input(){
+    var a, b, c;
+    
+    a = parseInt(prompt("Masukan nilai pertama:"));
+    alert("Nomor pertama kamu adalah " +a);
+    b = parseInt(prompt("Masukan nilai kedua:"));
+    alert("Nomor kedua kamu adalah " +b);
+    c = prompt("Masukan operator (+;-;*;/)");
+    alert("Kamu telah memilih : " +c+ " operator");
+
+    switch(c)
+    {
+      case "+":
+      c = a + b;
+      alert("Jawabannya adalah " +c);
+      break;
+      case "-":
+      c = a - b;
+      alert("Jawabannya adalah " +c)
+      break;
+      case "*":
+      c = a * b;
+      alert("Jawabannya adalah " +c)
+      break;
+      case "/":
+      c = a / b;
+      alert("Jawabannya adalah " +c)       
+      break;
+      default :
+      alert("Kamu memasukan operator yang salah.");
+     }
+  }    
+    
+  </script>
+</html>
