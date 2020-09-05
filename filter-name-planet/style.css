@@ -1,0 +1,32 @@
+body {
+    margin: 30px 40px;
+}
+
+h2 {
+    display: block;
+}
+
+#myInput {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    padding: 5px 4px;
+}
+
+table {
+    border-spacing: 0.5rem;
+    table-layout: fixed;        
+    border-collapse: collapse;
+    border: 1px solid teal;
+}
+
+th {
+    text-align: left;
+    background-color: teal;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 5px;
+}
+
