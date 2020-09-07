@@ -9,10 +9,10 @@ var input = ["0001", "Roman Alamsyah ", "Bandar Lampung", "21/05/1989", "Membaca
 // Split dan Switch 
   const hasilSplit = input[3].split("/");
   //console.log(hasilSplit)
-  // var month = hasilSplit[1];
+  var month = hasilSplit[1];
   // console.log(month);
 
-switch (month = 05) {
+switch (parseInt(month)) {
     case 01:
     console.log("Januari");
     break;
